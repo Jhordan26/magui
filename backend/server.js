@@ -9,7 +9,7 @@ const path = require('path');
 
 // Inicializar cliente TTS de Google
 const client = new textToSpeech.TextToSpeechClient({
-  keyFilename: '', // Ruta correcta de tu archivo JSON de credenciales
+  keyFilename: './asistentevirtual-438503-2057896226ed.json', // Ruta correcta de tu archivo JSON de credenciales
 });
 
 const app = express();
